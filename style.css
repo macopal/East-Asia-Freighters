@@ -706,5 +706,13 @@ text-align: right;
 margin-top: 20px;
 }
 
+.img-fluid {
+  width: 250px;
+  height: 200px;
+}
+
+.btn-primary {
+  margin-bottom: 30px;
+}
 
 
