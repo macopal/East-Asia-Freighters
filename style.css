@@ -706,6 +706,72 @@ text-align: right;
 margin-top: 20px;
 }
 
+.docks-section {
+  background: #f5f5f5;
+  padding: 20px 0;
+}
+
+.dock-row {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.dock-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fcl-lcl-section li{
+  color: rgb(50, 50, 50);
+margin-left: 20px;
+}
+.fcl-lcl-section {
+  background: #cbf5ffd2;
+  padding: 50px 0;
+}
+
+.fcl-lcl-section .row {
+  display: table;
+  width: 100%;
+}
+
+.fcl-box, .lcl-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: table-cell;
+  vertical-align: top;
+  width: 50%; /* Ensures equal width */
+}
+
+.fcl-box {
+  border-left: 5px solid #002244;
+}
+
+.lcl-box {
+  border-left: 5px solid #4CAF50;
+}
+
+.fcl-box h3, .lcl-box h3 {
+  color: #002244;
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .fcl-lcl-section .row {
+      display: block;
+  }
+  .fcl-box, .lcl-box {
+      display: block;
+      width: 100%;
+  }
+}
+
 .img-fluid {
   width: 250px;
   height: 200px;
@@ -714,5 +780,3 @@ margin-top: 20px;
 .btn-primary {
   margin-bottom: 30px;
 }
-
-
